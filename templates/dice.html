@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+  <h2>Dice Roll:</h2>
+  <p>
+    Number of Dice rolls: {{number}}<br/>
+    Dice roll total: {{roll_total}}<br/>
+    Roll 1: {{roll_list[0]}}<br/>
+    Roll 2: {{roll_list[1]}}<br/>
+    {{dr_list[0]}}<br/>
+    ------------------------<br/>
+    {{dr_list[1]}}<br/>
+    <a href="/">Back Home</a>
+  </p>
+</div>
+{% endblock %}
